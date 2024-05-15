@@ -20,7 +20,7 @@ def httpGET():
 
     filters = {}
     for key, value in request.args.items():
-        if key == "random" or key == "Random":
+        if key.lower() == "random" :
             random = 1
         else:
             filters[key] = value

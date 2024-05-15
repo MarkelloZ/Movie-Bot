@@ -1,0 +1,5 @@
+.venv/
+.conda/
+*.tsv
+moviedata/
+env/
